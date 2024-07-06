@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridgeon</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link hrfdsfef='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="new.js"></script>   
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("ITaS1QdDEaNLCSAaN");
+    })();
+</script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <a href="#home" class="my-name"><span>San</span>ah</a>
+            <div class="navbar-items">
+                <a href="#about">About</a>
+                <a href="#skill">Skill</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div id="home">
+            <div class="home-left">
+                <h1 class="head-one">Hi, It's <br><span class="head-color">Mohamed Sanah</span></h1>
+                <h2 class="head-two">I'm a <span class="head-color">Full Stack Developer</span></h2>
+                <p class="home-para">Hello! I'm Mohamed sanah, a passionate newcomer to the world of <br>software development
+                    with big dreams of becoming a <br>full-stack developer.</p>
+                <div class="social-media">
+                    <a href="#">
+                        <div class="icon-container"><i class='bx bxl-instagram-alt'></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="icon-container"><i class='bx bxl-github'></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="icon-container"><i class='bx bxl-linkedin-square'></i></div>
+                    </a>
+                </div>
+                <a href="#contact"><button class="contact-btn">Contact</button></a>
+            </div>
+            <div class="home-right">
+                <img src="myimage.jpg" alt="my image" width="500px" height="600px">
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="about-left">
+                <!-- <img src="myimage.jpg"  alt="my image"> -->
+            </div>
+            <div class="about-right">
+                <h1 class="about-head">About <span class="head-color">Me</span></h1>
+                <p class="about-para">Hi there! I'm Monica, a full-stack developer with a BTech in Computer Engineering.
+                    I specialize in creating engaging and user-friendly websites using HTML, CSS, and JavaScript. My
+                    passion lies in crafting seamless digital experiences and continually expanding my skill set.
+                    <br><br>
+                    With a strong foundation in front-end and back-end development, I thrive on transforming ideas into
+                    functional, visually appealing websites that enhance user experience. Currently, I'm gaining
+                    valuable experience through an internship at Bridgeon, where I collaborate with a talented team on
+                    real-world projects.
+                    <br><br>
+                    Explore my portfolio to see examples of my work, and don't hesitate to reach out if you're
+                    interested in collaborating on exciting projects or discussing tech innovations!
+                </p>
+            </div>
+        </div>
+
+        <div id="skill">
+            <h1 class="skill-head">Skill</h1>
+            <div class="skill-container">
+                <div class="skill-sub">
+                    <div class="skill-icon-head"><i class='bx bxl-html5'></i>
+                        <h2>HTML</h2>
+                    </div>
+
+                    <p class="skill-para">HTML, short for Hypertext Markup Language, is the standard language used to
+                        create web pages. It uses tags to structure the content and layout of a webpage. These tags
+                        define elements such as headings, paragraphs, images, links, and more. HTML is essential for
+                        building the basic structure of a website.</p>
+                </div>
+                <div class="skill-sub">
+                    <div class="skill-icon-head"><i class='bx bxl-css3'></i>
+                        <h2>CSS</h2>
+                    </div>
+                    <p class="skill-para">CSS, or Cascading Style Sheets, styles the appearance of HTML document. It
+                        defines colors, fonts, layout, and more, enhancing webpage aesthetics and user experience. CSS
+                        separates content from presentation, allowing for consistent and responsive design across
+                        different devices and screen sizes.</p>
+                </div>
+                <div class="skill-sub">
+                    <div class="skill-icon-head"><i class='bx bxl-javascript'></i>
+                        <h2>JavaScript</h2>
+                    </div>
+
+                    <p class="skill-para">JavaScript (JS) is a versatile programming language primarily used for adding
+                        interactivity to web pages. It enables dynamic behavior like animations, user input validation,
+                        and updating content without reloading the page. JS works alongside HTML and CSS, making web
+                        pages more interactive and responsive for users.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project">
+            <h1 class="project-head">Project</h1>
+            <div class="project-container">
+                    <div class="project-sub project-sub-one">
+                        <a href="#" target="_blank">View <i class='bx bx-desktop'></i></a>
+                    </div>
+                    <div class="project-sub project-sub-two">
+                        <a href="#" target="_blank">View <i class='bx bx-desktop'></i></a>
+                    </div>
+                    <div class="project-sub project-sub-three">
+                        <a href="#" target="_blank">View <i class='bx bx-desktop'></i></a>
+                    </div>
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <h1 class="contact-head">Contact <span class="head-color">Me</span></h1>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <input type="text" placeholder="Full Name" name="name" class="contact-input">
+                    <input type="email" placeholder="Email" name="email" class="contact-input">
+                    <textarea placeholder="Message" name="message" id="message"></textarea>
+                    <button type="button" onclick="sendMail()" id="send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

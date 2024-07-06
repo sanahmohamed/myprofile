@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive HTML example">
+    <meta name="keywords" content="HTML, example, tags, attributes">
+    <meta name="author" content="ChatGPT">
+    <title>Comprehensive HTML Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        section {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Comprehensive HTML Example</h1>  
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+    </ul>
+</nav>
+
+<section id="section1">
+    <h2>Section 1: Text Elements</h2>
+    <p>This is a paragraph with a <a href="https://www.example.com" title="Example link">link</a>, <strong>bold text</strong>, <em>italic text</em>, and <u>underlined text</u>.</p>
+    <p>Here's a list:</p>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <p>Here's an ordered list:</p>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <blockquote>This is a blockquote.</blockquote>
+    <pre>
+        This is preformatted text.
+    </pre>
+    <code>
+        // This is a code block
+        console.log("Hello, world!");
+    </code>
+</section>
+
+<section id="section2">
+    <h2>Section 2: Multimedia Elements</h2>
+    <figure>
+        <img src="image.jpg" alt="Sample image" width="300">
+        <figcaption>Sample image caption</figcaption>
+    </figure>
+    <video controls width="300">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<section id="section3">
+    <h2>Section 3: Forms and Tables</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <label for="select">Choose an option:</label>
+        <select id="select" name="select">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <br>
+        <input type="checkbox" id="checkbox" name="checkbox" checked>
+        <label for="checkbox">Check this box</label>
+        <br>
+        <input type="radio" id="radio1" name="radio" value="1" checked>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="2">
+        <label for="radio2">Option 2</label>
+        <br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Your message"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>my table</caption>
+        <thead>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>
+    </table>
+</section>
+
+<footer>
+    <p>Footer content goes here.</p>
+</footer>
+
+</body>
+</html>
